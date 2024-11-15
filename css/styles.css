@@ -1,6 +1,17 @@
 @font-face {
-    font-family: Source Sans;
-    src: url("../assets/fonts/Source_Sans_3/SourceSans3-Regular.ttf");
+    font-family: SourceSans3;
+    src: url("../assets/fonts/SourceSans3/SourceSans3-Regular.ttf");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SourceSans3;
+    src: url("../assets/fonts/SourceSans3/SourceSans3-Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+body{
+    font-family: SourceSans3, serif;
 }
